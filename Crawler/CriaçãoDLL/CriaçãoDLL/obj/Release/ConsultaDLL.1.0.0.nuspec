@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ConsultaDLL</id>
+    <version>1.0.0</version>
+    <authors>ConsultaDLL</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\bin\Release\netcoreapp3.1\ConsultaDLL.dll" target="lib\netcoreapp3.1\ConsultaDLL.dll" />
+  </files>
+</package>

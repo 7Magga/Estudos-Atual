@@ -1,0 +1,9 @@
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\bin\Debug\netcoreapp3.1\CriaçãoDLL.deps.json
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\bin\Debug\netcoreapp3.1\CriaçãoDLL.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\bin\Debug\netcoreapp3.1\CriaçãoDLL.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\CriaçãoDLL.csprojAssemblyReference.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\CriaçãoDLL.AssemblyInfoInputs.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\CriaçãoDLL.AssemblyInfo.cs
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\CriaçãoDLL.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\CriaçãoDLL.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\CriaçãoDLL.pdb

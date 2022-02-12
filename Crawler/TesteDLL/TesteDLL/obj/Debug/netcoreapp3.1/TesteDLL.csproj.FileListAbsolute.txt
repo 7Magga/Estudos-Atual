@@ -1,0 +1,16 @@
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\TesteDLL.exe
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\TesteDLL.deps.json
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\TesteDLL.runtimeconfig.json
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\TesteDLL.runtimeconfig.dev.json
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\TesteDLL.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\TesteDLL.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\CriaçãoDLL.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\bin\Debug\netcoreapp3.1\CriaçãoDLL.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.csprojAssemblyReference.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.AssemblyInfoInputs.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.AssemblyInfo.cs
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.csproj.CopyComplete
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\TesteDLL\TesteDLL\obj\Debug\netcoreapp3.1\TesteDLL.genruntimeconfig.cache
