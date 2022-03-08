@@ -81,8 +81,12 @@ C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawle
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\bin\Debug\System.Text.Json.xml
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\bin\Debug\System.ValueTuple.xml
-C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\obj\Debug\TesteCrawler.csprojAssemblyReference.cache
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\obj\Debug\TesteCrawler.csproj.CoreCompileInputs.cache
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\obj\Debug\TesteCrawler.csproj.CopyComplete
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\obj\Debug\TesteCrawler.exe
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\obj\Debug\TesteCrawler.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\obj\Debug\TesteCrawler.csproj.AssemblyReference.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\obj\Debug\TesteCrawler.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\TesteCrawler\TesteCrawler\bin\Debug\HtmlAgilityPack.xml
