@@ -12,6 +12,7 @@ namespace Estudo_CSharp
         public string Sexo;
         public DateTime DtNascimento;
         public double PosicaoX, PosicaoY;
+        public readonly string NomeRead;
 
         public Pessoa(string nome, string sexo, DateTime dtNascimento, double posicaoX,double posicaoY)
         {

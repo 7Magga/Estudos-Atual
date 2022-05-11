@@ -43,10 +43,12 @@
   <ItemGroup>
     <Compile Include="Calculos.cs" />
     <Compile Include="Encapsulamento\PessoaEncap.cs" />
+    <Compile Include="MinhaException.cs" />
     <Compile Include="Modificadores\Carro.cs" />
     <Compile Include="Modificadores\Caminhao.cs" />
     <Compile Include="Modificadores\ModificadoresAcesso.cs" />
     <Compile Include="Modificadores\Veiculo.cs" />
+    <Compile Include="ProgramBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

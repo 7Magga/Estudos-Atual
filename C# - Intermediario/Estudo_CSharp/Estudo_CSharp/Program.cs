@@ -4,8 +4,10 @@ using System.Linq;
 
 namespace Estudo_CSharp
 {
-    class Program
+    class Program  : ProgramBase
     {
+        string Nome;
+
         static void Main(string[] args)
         {
             #region Pessoa
@@ -13,6 +15,8 @@ namespace Estudo_CSharp
             pessoa.Nome = "Matheus";
             pessoa.Sexo = "MSC";
             pessoa.DtNascimento = new DateTime(2001,04,30);
+            //pessoa.NomeRead = "";
+            var _nome = pessoa.NomeRead;
 
             var retorno = pessoa.ResumoPessoa();
             
@@ -61,6 +65,37 @@ namespace Estudo_CSharp
             pessoa2.setNome("       Teste");
             string nome = pessoa2.getNome();
             #endregion
+
+            #region Exception
+            try
+            {
+                throw new MinhaException("10");
+            }
+            catch (MinhaException e)
+            {
+                Console.WriteLine($"\n{e.Message}");
+            }
+            Console.ReadKey();
+            #endregion
+
+            #region Boxing e Unboxing
+            //Boxing
+            int a = 10;
+            object b = a;
+
+            //Unboxing
+            int _a = (int)b;
+            #endregion
+        }
+
+        void SetNome(string Nome)
+        {
+            this.Nome = Nome;
+        }
+
+        void SetNomeBase(string Nome)
+        {
+            this.Nome = base.SetNome(Nome);
         }
     }
 }

@@ -3,3 +3,9 @@ C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\C# - Intermediario\Estudo_CSharp\
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\C# - Intermediario\Estudo_CSharp\01_Biblioteca\obj\Debug\01_Biblioteca.csproj.CoreCompileInputs.cache
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\C# - Intermediario\Estudo_CSharp\01_Biblioteca\obj\Debug\01_Biblioteca.dll
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\C# - Intermediario\Estudo_CSharp\01_Biblioteca\obj\Debug\01_Biblioteca.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\C# - Intermediario\Estudo_CSharp\01_Biblioteca\bin\Debug\01_Biblioteca.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\C# - Intermediario\Estudo_CSharp\01_Biblioteca\bin\Debug\01_Biblioteca.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\C# - Intermediario\Estudo_CSharp\01_Biblioteca\obj\Debug\01_Biblioteca.csprojAssemblyReference.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\C# - Intermediario\Estudo_CSharp\01_Biblioteca\obj\Debug\01_Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\C# - Intermediario\Estudo_CSharp\01_Biblioteca\obj\Debug\01_Biblioteca.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\C# - Intermediario\Estudo_CSharp\01_Biblioteca\obj\Debug\01_Biblioteca.pdb
