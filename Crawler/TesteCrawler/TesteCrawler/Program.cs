@@ -4,8 +4,11 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using HtmlAgilityPack;
+using static TesteCrawler.repository;
+using System.Data.SqlClient;
+using System.Data;
 
-namespace TesteCrawler
+namespace MAGGAUtil
 {
     public class model
     {
@@ -50,14 +53,17 @@ namespace TesteCrawler
     {
         static void Main(string[] args)
         {
+            SqlConnection cnn = AbrirConn();
             inicio();
 
             void inicio()
             {
+                cnn.Close();    
                 Console.WriteLine("SELECIONE O CRAWLER DESEJADO");
                 Console.WriteLine("1 - Busa CEP Correio");
                 Console.WriteLine("2 - Cotações");
                 Console.WriteLine("3 - Busca Produto");
+                Console.WriteLine("4 - Imprimir Banco de Dados");
                 string op = Console.ReadLine();
                 switch (op)
                 {
@@ -69,6 +75,9 @@ namespace TesteCrawler
                         break;
                     case "3":
                         BuscaProduto();
+                        break;
+                    case "4":
+                        Imprimir();
                         break;
                 }
             }
@@ -85,7 +94,7 @@ namespace TesteCrawler
                 #endregion
                 Console.WriteLine("-----------------------------------------------------------------------------------------------------------");
                 Console.WriteLine("Digite um cep:");
-                string cep = Console.ReadLine().Replace("-", "");
+                string cep = Console.ReadLine().Replace("-", "").Trim();
                 Console.WriteLine("");
                 Console.WriteLine("Resultado da busca:");
                 using (var client = new HttpClient())
@@ -115,8 +124,25 @@ namespace TesteCrawler
                             _localidade = json.dados[0].localidade;
                             _rua = json.dados[0].logradouroDNEC;
                             _bairro = json.dados[0].bairro;
-                            _cep = json.dados[0].cep;
+                            _cep = cep;
                             _tipo = json.dados[0].tipoCep;
+
+                            #region Banco de Dados
+                            string command = $"INSERT INTO TB_CEP(uf,localidade,logradouroDNEC,bairro,cep,tipoCep)" +
+                                $"VALUES('{_uf}','{_localidade}','{_rua}','{_bairro}','{_cep}','{_tipo}')";
+                            SqlCommand cmd = new SqlCommand(command,cnn);
+                            cmd.CommandType = CommandType.Text;
+                            try
+                            {
+                                cnn.Open();
+                                cmd.ExecuteNonQuery();
+                                cnn.Close();
+                            }
+                            catch (Exception e)
+                            {
+                                Console.WriteLine($"Erro {e.Message}");
+                            }
+                            #endregion
                             Console.WriteLine($"A rua é {_rua}, o bairro é {_bairro} a cidade é {_localidade} e o Estado é {_uf}");
                         }
                         else if (json.total != 0)
@@ -162,12 +188,44 @@ namespace TesteCrawler
                                 Console.WriteLine($"Resultado do(a) {doc.name}");
                                 Console.WriteLine($"-Abriu em R$2{doc.openbidvalue} Fechou em R${doc.askvalue} com uma variação de {doc.variationpercentbid}");
                                 Console.WriteLine("");
+                                #region Banco
+                                string command = $"INSERT INTO TB_COTACAO(Nome,Abertura,Fechamento,Variacao)" +
+                                            $"VALUES('{doc.name}','{doc.openbidvalue}','{doc.askvalue}','{doc.variationpercentbid}')";
+                                SqlCommand cmd = new SqlCommand(command, cnn);
+                                cmd.CommandType = CommandType.Text;
+                                try
+                                {
+                                    cnn.Open();
+                                    cmd.ExecuteNonQuery();
+                                    cnn.Close();
+                                }
+                                catch (Exception e)
+                                {
+                                    Console.WriteLine($"Erro {e.Message}");
+                                }
+                                #endregion
                             }
                             else
                             {
                                 Console.WriteLine($"Resultado do(a) {doc.exchangeasset}");
                                 Console.WriteLine($"-Abriu em R${doc.open} Fechou em R${doc.price} com uma variação de {doc.pctChange}");
                                 Console.WriteLine("");
+                                #region Banco
+                                string command = $"INSERT INTO TB_COTACAO(Nome,Abertura,Fechamento,Variacao)" +
+                                            $"VALUES('{doc.exchangeasset}','{doc.open}','{doc.price}','{doc.pctChange}')";
+                                SqlCommand cmd = new SqlCommand(command, cnn);
+                                cmd.CommandType = CommandType.Text;
+                                try
+                                {
+                                    cnn.Open();
+                                    cmd.ExecuteNonQuery();
+                                    cnn.Close();
+                                }
+                                catch (Exception e)
+                                {
+                                    //Console.WriteLine($"Erro {e.Message}");
+                                }
+                                #endregion
                             }
                         }
                     }
@@ -195,18 +253,43 @@ namespace TesteCrawler
 
                     HtmlDocument html = new HtmlDocument();
                     html.LoadHtml(Convert.ToString(response.Result));
-                    var Linha = html.DocumentNode.SelectNodes(".//span[@class='HRLxBb']")[0];
+                    var Linha = html.DocumentNode.SelectNodes(".//span[@class='HRLxBb']")[0].InnerText;
+                    var _produto = html.DocumentNode.SelectNodes(".//div[@class='rgHvZc']")[0].InnerText;
                     var LinhaLoja = html.DocumentNode.SelectNodes(".//div[@class='dD8iuc']")[0];
 
                     string strLoja = LinhaLoja.InnerHtml.ToString();
                     string[] separatingStrings = {"</span>"};
                     string[] strings = strLoja.Split(separatingStrings, System.StringSplitOptions.RemoveEmptyEntries);
                     
-                    Console.WriteLine($"O valor de {produto} é {Linha.InnerText} na{strings[1].Substring(3)}");
+                    Console.WriteLine($"O valor de {_produto} é {Linha} na{strings[1].Substring(3)}");
                     Console.WriteLine("-----------------------------------------------------------------------------------------------------------");
                     Console.WriteLine("");
+
+                    #region Banco
+                    string command = $"INSERT INTO TB_PRODUTO(Nome,Valor,Loja)" +
+                                $"VALUES('{_produto}','{Linha}','{strings[1].Substring(3)}')";
+                    SqlCommand cmd = new SqlCommand(command, cnn);
+                    cmd.CommandType = CommandType.Text;
+                    try
+                    {
+                        cnn.Open();
+                        cmd.ExecuteNonQuery();
+                        cnn.Close();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine($"Erro {e.Message}");
+                    }
+                    #endregion
                     inicio();
                 }
+            }
+            void Imprimir()
+            {
+                cnn.Open();
+                
+                cnn.Close();
+                inicio();
             }
         }
     }

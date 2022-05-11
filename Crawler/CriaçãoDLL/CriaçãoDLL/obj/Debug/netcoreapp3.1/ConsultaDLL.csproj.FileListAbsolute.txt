@@ -7,3 +7,13 @@ C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.csproj.CoreCompileInputs.cache
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.dll
 C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\bin\Debug\netcoreapp3.1\ConsultaDLL.deps.json
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\bin\Debug\netcoreapp3.1\ConsultaDLL.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\bin\Debug\netcoreapp3.1\ConsultaDLL.pdb
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.csproj.AssemblyReference.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.AssemblyInfoInputs.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.AssemblyInfo.cs
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.dll
+C:\Users\Matheus Gabryel\source\7Magga\ESTUDOS\Estudos-Atual\Crawler\CriaçãoDLL\CriaçãoDLL\obj\Debug\netcoreapp3.1\ConsultaDLL.pdb

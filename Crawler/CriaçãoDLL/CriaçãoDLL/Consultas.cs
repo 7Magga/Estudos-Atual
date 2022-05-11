@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using HtmlAgilityPack;
+using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
@@ -22,6 +24,35 @@ namespace ConsultaDLL
         public string cep { get; set; }
         public string tipoCep { get; set; }
     }
+
+    public class Moeda
+    {
+        public string name { get; set; }
+        public double openbidvalue { get; set; }
+        public double askvalue { get; set; }
+        public double variationpercentbid { get; set; }
+        public string date { get; set; }
+        public string abbreviation { get; set; }
+        public double pctChange { get; set; }
+        public double open { get; set; }
+        public string exchangeasset { get; set; }
+        public double price { get; set; }
+    }
+
+    public class ReqMoeda
+    {
+        public object prev { get; set; }
+        public object next { get; set; }
+        public Moeda[] docs { get; set; }
+    }
+
+    public class Produto
+    {
+        public string produto { get; set; }
+        public string valor { get; set; }
+        public string loja { get; set; }
+    }
+
     public class Consultas
     {
         public dynamic BuscaCep(string CEP,string tipoRetorno)
@@ -87,6 +118,61 @@ namespace ConsultaDLL
                 }
             }
             return "Não foi possivel localizar devido a um erro";
+        }
+
+        public dynamic Cotacao()
+        {
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/x-www-form-urlencoded"));
+                client.DefaultRequestHeaders.Add("Accept", "*/*");
+
+                var Request = new HttpRequestMessage(HttpMethod.Get, "https://api.cotacoes.uol.com/mixed/summary?&currencies=1,11,5&itens=1,23243,1168&fields=name,openbidvalue,askvalue,variationpercentbid,price,exchangeasset,open,pctChange,date,abbreviation&jsonp=jsonp");
+
+                var Result = client.SendAsync(Request).Result.Content.ReadAsStringAsync();
+                string teste = Result.Result.Replace("/**/jsonp(", "").Replace(");", "");
+
+                var json = JsonSerializer.Deserialize<ReqMoeda>(teste);
+                if (json.docs != null)
+                {
+                    return json;
+                }
+                return "Erro";
+            }
+        }
+
+        public dynamic BuscaProduto(string produto, string tipoRetorno)
+        {
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/x-www-form-urlencoded"));
+                client.DefaultRequestHeaders.Add("Accept", "*/*");
+
+                var Request = new HttpRequestMessage(HttpMethod.Get, $"https://www.google.com/search?tbm=shop&q={produto}&ved=2ahUKEwip-fD8nbX2AhXvOLkGHWsNANkQ3IcGegQIAhAA");
+                var response = client.SendAsync(Request).Result.Content.ReadAsStringAsync();
+
+                HtmlDocument html = new HtmlDocument();
+                html.LoadHtml(Convert.ToString(response.Result));
+                var Linha = html.DocumentNode.SelectNodes(".//span[@class='HRLxBb']")[0];
+                var LinhaLoja = html.DocumentNode.SelectNodes(".//div[@class='dD8iuc']")[0];
+
+                string strLoja = LinhaLoja.InnerHtml.ToString();
+                string[] separatingStrings = { "</span>" };
+                string[] strings = strLoja.Split(separatingStrings, System.StringSplitOptions.RemoveEmptyEntries);
+
+                Produto _produto = new Produto()
+                {
+                    produto = produto,
+                    valor = Linha.InnerText,
+                    loja = strings[1].Substring(3)
+                };
+
+                if (tipoRetorno is "string")
+                    return $"O valor de {produto} é {Linha.InnerText} na{strings[1].Substring(3)}";
+                else if (tipoRetorno is "json")
+                    return JsonSerializer.Serialize(_produto);
+            }
+            return "erro";
         }
     }  
 }

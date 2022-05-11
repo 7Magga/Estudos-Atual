@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kZuoUwAAKTBCSYZkGfuB6qAqb+Us5ouGa1sLR5Xxsb0bbSbItzClRrzeNVyyH7rgyK3UiMsR81Olu92XYDpWDA==",
+  "dgSpecHash": "pmib3FbKMOwlwqCaIZuY0LpR6/PV38NS7AcojYa3s9ULm3H1LwFexGJ6v06FtPokYzEY7OpN+BY+nyUBp3tLVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus Gabryel\\source\\7Magga\\ESTUDOS\\Crawler\\CriaçãoDLL\\CriaçãoDLL\\ConsultaDLL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Matheus Gabryel\\source\\7Magga\\ESTUDOS\\Estudos-Atual\\Crawler\\CriaçãoDLL\\CriaçãoDLL\\ConsultaDLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus Gabryel\\.nuget\\packages\\htmlagilitypack\\1.11.42\\htmlagilitypack.1.11.42.nupkg.sha512"
+  ],
   "logs": []
 }
