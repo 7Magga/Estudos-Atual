@@ -2,7 +2,17 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div id="createListDiv" class="text-center">
+    <h1 class="display-4">TESTE</h1>
+    <input type="text" id="shoppingListName" placeholder="New List"/>
+    <button onclick="createShoppingList()">Create</button>
+</div>
+
+
+<div id="shoppingListDiv">
+    <h1 id="shoppingListTitle" >New List</h1>
+    <input id="itemName" type="text" placeholder="New Item"/>
+    <button onclick="addItem()">Add</button>
+    <ul id="shoppingListItems">
+    </ul>
 </div>
