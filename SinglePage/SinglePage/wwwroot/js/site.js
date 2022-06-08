@@ -3,14 +3,14 @@
 function createShoppingList() {
     currentList.name = $('#shoppingListName').val();
     currentList.items = new Array();
-    //Web service Call
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "api/Shopping/",
+        url: "api/ShoppingEf/",
         contentType: "application/json",
         data: JSON.stringify(currentList),
         success: function (result) {
+            currentList = result;
             showShoppingList();
         }
     })
@@ -32,19 +32,17 @@ function showShoppingList() {
 }
 
 function addItem() {
-    debugger;
     var newItem = {};
     newItem.name = $("#itemName").val();
     newItem.shoppingListId = currentList.id;
-    currentList.items.push(newItem);
-
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "api/Item/",
+        url: "api/ItemsEf/",
         contentType: "application/json",
         data: JSON.stringify(newItem),
         success: function (result) {
+            debugger;
             currentList = result;
             console.info(currentList);
             $('#itemName').val("");
@@ -58,26 +56,53 @@ function drawItems() {
     for (var i = 0; i < currentList.items.length; i++) {
         var currentItem = currentList.items[i];
         var $li = $('<li>').html(currentItem.name).attr("id", "item_" + i);
-        var $deleteBtn = $("<button onclick='deleteItem(" + i + ")'>D</button>").appendTo($li);
-        var $checkBtn = $("<button onclick='checkItem(" + i + ")'>C</button>").appendTo($li);
+        var $deleteBtn = $("<button onclick='deleteItem(" + currentItem.id + ")'>D</button>").appendTo($li);
+        var $checkBtn = $("<button onclick='checkItem(" + currentItem.id + ")'>C</button>").appendTo($li);
+        if (currentItem.checked) {$li.addClass("checked")}
         $li.appendTo($list);
     };
-
 }
 
-function checkItem(index) {
+function checkItem(itemId) {
+    var changeItem;
 
-    if ($("#item_" + index).hasClass("checked")) {
-        $("#item_" + index).removeClass("checked");
-    }
-    else
-    {
-        $("#item_" + index).addClass("checked");
-    }
+    for (var i = 0; i < currentList.items.length; i++) {
+        if (currentList.items[i].id == itemId) {
+            changeItem = currentList.items[i];
+        }
+    };
+
+    changeItem.checked = !changeItem.checked;
+    $.ajax({
+        type: "PUT",
+        dataType: "json",
+        url: "api/ItemsEf/",
+        contentType: "application/json",
+        data: JSON.stringify(changeItem),
+        success: function () {
+            getShoppingById(currentList.id);
+        }
+    });
 }
 
-function deleteItem(index) {
-    currentList.items.splice(index, 1);
+function deleteItem(itemId) {
+    var item;
+    for (var i = 0; i < currentList.items.length; i++) {
+        if (currentList.items[i].id == itemId) {
+            item = currentList.items[i];
+        }
+    }
+
+    $.ajax({
+        type: "DELETE",
+        dataType: "json",
+        url: "api/ItemsEf/",
+        data: JSON.stringify(item),
+        success: function (result) {
+            currentList = result;
+            drawItems();
+        }
+    });
     drawItems();
 }
 
@@ -85,13 +110,13 @@ function getShoppingById(id) {
     $.ajax({
         type: "GET",
         dataType: "json",
-        url: "api/Shopping/" + id,
+        url: "api/ShoppingEf/" + id,
         success: function (result) {
             currentList = result;
             showShoppingList();
             drawItems();
         },
-        error: function () {
+        error: function (result) {
             console.error("Bad Request");
         }
 

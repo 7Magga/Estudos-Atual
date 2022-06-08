@@ -11,19 +11,8 @@ namespace SinglePage.Controllers
     public class ShoppingController : ControllerBase
     {
 
-        public static List<ShoppingList> shoppingList = new List<ShoppingList>()
-        {
-            new ShoppingList() { Id = 1, name = "Extra" , items={
-                new Item() { name = "Melancia"},
-                new Item() { name = "Alface"}
-                } },
-            new ShoppingList() { Id = 2, name = "Makro",items={ 
-                new Item(){ name = "Alface"},
-                new Item(){ name = "Melancia"}
-                } }
-        };
-
-        // GET api/<ShoppingController>/5
+        public static List<ShoppingList> shoppingList = new List<ShoppingList>();
+       
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
@@ -31,13 +20,12 @@ namespace SinglePage.Controllers
             return result is not null ? Ok(result) : NotFound();
         }
 
-        // POST api/<ShoppingController>
         [HttpPost]
-        public IEnumerable Post([FromBody]ShoppingList newList)
+        public ShoppingList Post([FromBody]ShoppingList newList)
         {
             newList.Id = shoppingList.Count;
             shoppingList.Add(newList);
-            return shoppingList;
+            return newList;
         }
     }
 }

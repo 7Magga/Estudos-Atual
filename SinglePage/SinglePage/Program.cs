@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using SinglePage.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<SinglePageContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SinglePageContext") ?? throw new InvalidOperationException("Connection string 'SinglePageContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -16,13 +21,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
-//Json
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
