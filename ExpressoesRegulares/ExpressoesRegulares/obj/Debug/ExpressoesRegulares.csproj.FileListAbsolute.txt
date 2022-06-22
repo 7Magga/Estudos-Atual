@@ -1,8 +1,0 @@
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\bin\Debug\ExpressoesRegulares.exe.config
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\bin\Debug\ExpressoesRegulares.exe
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\bin\Debug\ExpressoesRegulares.pdb
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\obj\Debug\ExpressoesRegulares.csproj.AssemblyReference.cache
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\obj\Debug\ExpressoesRegulares.csproj.SuggestedBindingRedirects.cache
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\obj\Debug\ExpressoesRegulares.csproj.CoreCompileInputs.cache
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\obj\Debug\ExpressoesRegulares.exe
-D:\ARQUIVO DE PROJETOS\Estudos-Atual\ExpressoesRegulares\ExpressoesRegulares\obj\Debug\ExpressoesRegulares.pdb
