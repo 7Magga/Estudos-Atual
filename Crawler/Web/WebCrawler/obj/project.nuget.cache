@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HOSts65bzCHzoOHFhvNlDEO6D5VPuLOvzCmFI/x1kxWUW2uw5YdZyc2mbV5bXT4u9bzaYiuJCRqxG961HelmSQ==",
+  "success": true,
+  "projectFilePath": "D:\\ARQUIVO DE PROJETOS\\Estudos-Atual\\Crawler\\Web\\WebCrawler\\WebCrawler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus Gabryel\\.nuget\\packages\\htmlagilitypack\\1.11.43\\htmlagilitypack.1.11.43.nupkg.sha512"
+  ],
+  "logs": []
+}
