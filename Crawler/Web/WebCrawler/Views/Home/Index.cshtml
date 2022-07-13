@@ -3,7 +3,7 @@
 }
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+<script src="https://twitter.github.io/typeahead.js/js/handlebars.js"></script>
 
 <div class="text-center">
    <div class="container h-100">
@@ -13,31 +13,74 @@
       <div class="d-flex justify-content-center h-100">
         <div class="searchbar">
           <input class="search_input" type="text" name="" placeholder="Search...">
-          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+          <a class="search_icon"><i class="fas fa-search"></i></a>
         </div>
       </div>
     </div>
 </div>
 
-<div class="produto" style="display:none">
+<div id="produto">
     <h6> &middot; Busca de produto</h6>
     <p>Google</p>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Loja</th>
+            <th scope="col">Produto</th>
+            <th scope="col">Valor</th>
+          </tr>
+        </thead>
+        <tbody id="tableGoogle">
+        </tbody>
+    </table>
     <hr>
     <p>Zoom</p>
 </div>
 
-<div class="correios" style="display:none">
+<div id="correios">
     <h6> &middot; Busca Cep Correios</h6>
     <hr>
-
+    <p class="Rua"></p>
+    <p class="Bairro"></p>
+    <p class="Estado"></p>
+    <p class="Cidade"></p>
+    <p class="Cep"></p>
 </div>
 
-<div class="cotacoes" style="display:none">
+<div id="cotacoes">
     <h6> &middot; Valores cotações</h6>
     <p>Fonte de dados: Uol</p>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Moeda</th>
+            <th scope="col">Abertura</th>
+            <th scope="col">Fechamento</th>
+            <th scope="col">Variação</th>
+          </tr>
+        </thead>
+        <tbody id="cotacoes_table">
+        </tbody>
+    </table>
 </div>
 
+<script id="tmplCotacao" type="text/template">
+  <tr>
+    <td>{{name}}</td>
+    <td>{{openbidvalue}}</td>
+    <td>{{askvalue}}</td>
+    <td>{{variationpercentbid}}</td>
+  </tr>
+</script>
 
+<script id="tmplProduto" type="text/template">
+  <tr>
+    <td>{{Loja}}</td>
+    <td>{{Produto}}</td>
+    <td>{{Valor}}</td>
+  </tr>
+</script>
 
 <style>
     

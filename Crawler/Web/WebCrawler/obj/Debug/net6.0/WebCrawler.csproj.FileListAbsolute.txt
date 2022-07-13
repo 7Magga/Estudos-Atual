@@ -26,3 +26,10 @@ D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\obj\Debug\net6.0\ref
 D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\obj\Debug\net6.0\WebCrawler.pdb
 D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\obj\Debug\net6.0\WebCrawler.genruntimeconfig.cache
 D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\obj\Debug\net6.0\ref\WebCrawler.dll
+D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\bin\Debug\net6.0\System.Web.Mvc.dll
+D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\bin\Debug\net6.0\System.Web.Razor.dll
+D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\ARQUIVO DE PROJETOS\Estudos-Atual\Crawler\Web\WebCrawler\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
