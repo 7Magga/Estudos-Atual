@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="awsproject01.awsproject01:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/awsproject01_awsproject01_jar</output-path>
+    <root id="archive" name="awsproject01.awsproject01.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

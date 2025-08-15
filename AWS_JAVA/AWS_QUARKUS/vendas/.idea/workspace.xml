@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d38aea4-2ddd-41bb-b7ba-709f5dc8edbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/AWS_QUARKUS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quarkus-social/src/main/java/com/matbrye/quarkus/rest/dto/CreateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CDK/curso_aws_cdk/src/main/java/com/myorg/ClusterStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CDK/curso_aws_cdk/src/main/java/com/myorg/RdsStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CDK/curso_aws_cdk/src/main/java/com/myorg/Service01Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CDK/curso_aws_cdk/src/main/java/com/myorg/VpcStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/.idea/awsproject01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/awsproject01/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/awsproject01/src/main/java/br/com/matbrye/awsproject01/awsproject01/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/awsproject01/src/main/java/br/com/matbrye/awsproject01/awsproject01/Controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/awsproject01/src/main/java/br/com/matbrye/awsproject01/awsproject01/Model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/awsproject01/src/main/java/br/com/matbrye/awsproject01/awsproject01/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../awsproject01/awsproject01/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/RestwithASPNETUdemy.NET6.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/Debug/net6.0/RestwithASPNETUdemy.NET6.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/Debug/net6.0/RestwithASPNETUdemy.NET6.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/Debug/net6.0/RestwithASPNETUdemy.NET6.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/Debug/net6.0/RestwithASPNETUdemy.NET6.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/Debug/net6.0/RestwithASPNETUdemy.NET6.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/Debug/net6.0/RestwithASPNETUdemy.NET6.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/RestwithASPNETUdemy.NET6.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/RestwithASPNETUdemy.NET6.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/RestwithASPNETUdemy.NET6.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET6/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/RestwithASPNETUdemy.NET7.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/RestwithASPNETUdemy.NET7.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/Debug/net7.0/RestwithASPNETUdemy.NET7.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/Debug/net7.0/RestwithASPNETUdemy.NET7.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/Debug/net7.0/RestwithASPNETUdemy.NET7.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/Debug/net7.0/RestwithASPNETUdemy.NET7.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/Debug/net7.0/RestwithASPNETUdemy.NET7.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/Debug/net7.0/RestwithASPNETUdemy.NET7.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/RestwithASPNETUdemy.NET7.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/RestwithASPNETUdemy.NET7.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/RestwithASPNETUdemy.NET7.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy.NET7/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/ProjectEvaluation/restwithaspnetudemy.metadata.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/ProjectEvaluation/restwithaspnetudemy.metadata.v5.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/ProjectEvaluation/restwithaspnetudemy.projects.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/ProjectEvaluation/restwithaspnetudemy.projects.v5.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/FileContentIndex/193eec96-dc83-43bd-9ab0-3ca1c4356456.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/FileContentIndex/5447b035-832c-415e-9525-b6ac68171bb0.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/v17/.futdcache.v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/.vs/RestwithASPNETUdemy/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Controllers/CalculatorController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Controllers/PersonController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Model/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/RestwithASPNETUdemy.NET5.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/RestwithASPNETUdemy.NET5.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/RestwithASPNETUdemy.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Services/IPersonService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Services/Implementation/PersonServiceImplementation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/RestwithASPNETUdemy.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/RestwithASPNETUdemy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/RestwithASPNETUdemy.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/RestwithASPNETUdemy.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/RestwithASPNETUdemy.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/RestwithASPNETUdemy.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/bin/Debug/net5.0/ref/RestwithASPNETUdemy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.NET5.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.NET5.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.NET5.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.NET5.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.NET5.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/RestwithASPNETUdemy.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/ref/RestwithASPNETUdemy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/staticwebassets/RestwithASPNETUdemy.StaticWebAssets.Manifest.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/Debug/net5.0/staticwebassets/RestwithASPNETUdemy.StaticWebAssets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/RestwithASPNETUdemy.NET5.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/RestwithASPNETUdemy.NET5.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/RestwithASPNETUdemy.NET5.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/RestwithASPNETUdemy.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/RestwithASPNETUdemy.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/RestwithASPNETUdemy.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EstudosREST/RestwithASPNETUdemy/RestwithASPNETUdemy/obj/project.nuget.cache" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../.." value="feature_AWSJAVA" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UJByUh26QmBVsVDwckp5iyZ61z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d38aea4-2ddd-41bb-b7ba-709f5dc8edbc" name="Changes" comment="" />
+      <created>1692648061755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692648061755</updated>
+      <workItem from="1692648066100" duration="2063000" />
+      <workItem from="1692651806098" duration="171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
