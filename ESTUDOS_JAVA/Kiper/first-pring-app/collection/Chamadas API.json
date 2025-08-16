@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "c856485c-af38-47ca-804d-edc4b72e7252",
+		"name": "BASE KIPER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47637748",
+		"_collection_link": "https://matheus-dev-gabryel-8856549.postman.co/workspace/matheus-dev-gabryel's-Workspace~f2b69c8f-c69c-4f6c-8444-15646e5e4ddd/collection/47637748-c856485c-af38-47ca-804d-edc4b72e7252?action=share&source=collection_link&creator=47637748"
+	},
+	"item": [
+		{
+			"name": "HELLO - GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}/hello",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HELLO - PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}/hello",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HELLO - GET/GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}/hello/get",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"hello",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HELLO - POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Matheus Gabryel\",\r\n    \"age\":24\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Url}}/hello",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HELLO - POST ID",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Matheussss\",\r\n    \"age\":24\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Url}}/hello/ASHAHSHASH",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"hello",
+						"ASHAHSHASH"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HELLO - POST ID FILTER",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Matheussss\",\r\n    \"age\":24\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Url}}/hello/filter/40?name=Nada",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"hello",
+						"filter",
+						"40"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Nada"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
